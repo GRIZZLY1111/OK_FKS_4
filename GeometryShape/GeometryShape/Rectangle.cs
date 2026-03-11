@@ -9,27 +9,21 @@ namespace GeometryShape
 {
     public class Rectangle : Shape
     {
-        private double _width;
-        public double Width 
+        public double Width;
+        public double Height;
+        public Rectangle(double width, double height)
         {
-            get => _width;
-            set{
-                if (_width != value)
-                {
-                    _width = value;
-                }
-            }
-        }
-        private double _height;
-        public double Height
-        {
-            get => _height;
-            set
+            try
             {
-                if (_height != value)
-                {
-                    _height = value;
-                }
+                Width = width;
+                Height = height;
+
+                if (Height <= 0 || Width <= 0)
+                    throw new ArgumentException("Сторона не может быть отрицательна или равна нулю");
+            }
+            catch
+            {
+                throw new ArgumentException("Ошибка введены не цифры. Пожалуйста введите цифры!");
             }
         }
         public override double Area()
