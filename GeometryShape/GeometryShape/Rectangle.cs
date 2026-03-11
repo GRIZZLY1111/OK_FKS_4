@@ -15,6 +15,7 @@ namespace GeometryShape
         {
             try
             {
+
                 Width = width;
                 Height = height;
 

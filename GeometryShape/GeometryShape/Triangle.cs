@@ -25,10 +25,9 @@ namespace GeometryShape
                     throw new ArgumentException("Сторона не может быть отрицательна или равна нулю");
                 }
 
-                if (SideB * SideB + SideC * SideC <= SideA*SideA || 
-                    SideA * SideA + SideC * SideC <= SideB*SideB || SideA*SideA + SideB*SideB <= SideC*SideC)
+                if (SideA + SideB <= SideC || SideA + SideC <= SideB || SideB + SideC <= SideA)
                 {
-                    throw new ArgumentException("Квадрат гипотенузы не может быть больше квадратов катетов");
+                    throw new ArgumentException("Сумма двух сторон треугольника должна быть больше третьей стороны");
                 }
             }
             catch

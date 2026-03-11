@@ -1,0 +1,12 @@
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\bin\Debug\net8.0\GeometryShape.deps.json
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\bin\Debug\net8.0\GeometryShape.dll
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\bin\Debug\net8.0\GeometryShape.pdb
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\GeometryShape.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\GeometryShape.AssemblyInfoInputs.cache
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\GeometryShape.AssemblyInfo.cs
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\GeometryShape.csproj.CoreCompileInputs.cache
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\GeometryShape.sourcelink.json
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\GeometryShape.dll
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\refint\GeometryShape.dll
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\GeometryShape.pdb
+C:\Users\admin\OneDrive\Рабочий стол\OK_FKS\Pract4\GeometryShape\GeometryShape\obj\Debug\net8.0\ref\GeometryShape.dll
