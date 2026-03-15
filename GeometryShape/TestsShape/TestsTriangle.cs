@@ -16,7 +16,6 @@ namespace TestsShape
         [Theory]
         [InlineData(-2, 1, 1)]
         [InlineData(0, 3, 3)]
-        [InlineData(3, 2, 2)]
         [InlineData(1, 2, 3)]
         public void CheckingProcessingIncorrectDataTriangle(double sideA, double sideB, double sideC)
         {
