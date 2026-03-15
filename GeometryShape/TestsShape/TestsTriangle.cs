@@ -10,6 +10,9 @@ namespace TestsShape
     public class TestsTriangle
     {
 
+        const double CHECKING_AREA = 5.15;
+        const double CHECKING_PERIMETER = 10;
+
         [Theory]
         [InlineData(-2, 1, 1)]
         [InlineData(0, 3, 3)]
@@ -26,6 +29,22 @@ namespace TestsShape
             Assert.Equal(3, triangle.SideA);
             Assert.Equal(5, triangle.SideB);
             Assert.Equal(3, triangle.SideC);
+        }
+        [Fact]
+        public void CheckingTriange_Area()
+        {
+
+            GeometryShape.Triangle triangle = new(3, 5, 3);
+
+            Assert.Equal(CHECKING_AREA, triangle.Area(), 0.01);
+        }
+        [Fact]
+        public void CheckingTrianglePerimeter()
+        {
+
+            GeometryShape.Triangle triangle = new(3, 5, 3);
+
+            Assert.Equal(CHECKING_PERIMETER, triangle.Perimeter());
         }
     }
 }
