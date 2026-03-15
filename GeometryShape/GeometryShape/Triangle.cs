@@ -39,8 +39,7 @@ namespace GeometryShape
         public override double Area()
         {
             double poluPerimeter = (SideA + SideB + SideC)/2;
-            double area = Math.Sqrt((poluPerimeter*(poluPerimeter-SideA)* (poluPerimeter - SideB)* (poluPerimeter - SideC)));
-            return area;
+            return Math.Sqrt((poluPerimeter*(poluPerimeter-SideA)* (poluPerimeter - SideB)* (poluPerimeter - SideC)));
         }
         public override double Perimeter()
         {
