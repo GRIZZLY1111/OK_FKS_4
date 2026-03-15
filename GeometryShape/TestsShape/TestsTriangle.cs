@@ -10,8 +10,8 @@ namespace TestsShape
     public class TestsTriangle
     {
 
-        const double CHECKING_AREA = 5.15;
-        const double CHECKING_PERIMETER = 10;
+        const double CHECKING_AREA = 4.15;
+        const double CHECKING_PERIMETER = 11;
 
         [Theory]
         [InlineData(-2, 1, 1)]
